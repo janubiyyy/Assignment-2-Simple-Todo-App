@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "npx vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "postinstall": "chmod -R 755 node_modules/.bin"
   },
   "dependencies": {
     "vue": "^3.2.0"
