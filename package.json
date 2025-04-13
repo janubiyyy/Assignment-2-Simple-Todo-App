@@ -2,8 +2,9 @@
   "name": "vue-todo-app",
   "version": "1.0.0",
   "scripts": {
+    "prebuild": "chmod +x ./node_modules/.bin/vite",
     "dev": "vite",
-    "build": "chmod +x ./node_modules/.bin/vite && vite build",
+    "build": "vite build",
     "serve": "vite preview"
   },
   "dependencies": {
